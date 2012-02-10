@@ -1,0 +1,11 @@
+bin
+obj
+*.user
+*.suo
+*.cache
+*.crunchproject.*
+*.crunchsolution.*
+_ReSharper.*
+/*/obj
+/*/bin
+packages
