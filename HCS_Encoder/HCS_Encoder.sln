@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCS_Encoder", "HCS_Encoder\HCS_Encoder.csproj", "{41D8F371-4F70-437F-9463-C8B841FC6F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncoderConfiguration", "EncoderConfiguration\EncoderConfiguration.csproj", "{5ADB4293-3F46-4CA4-86DF-027332B2AF4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ConfigurationTool", "ConfigurationTool\_ConfigurationTool.csproj", "{C2A43E1A-3031-4869-B550-2E580D256A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ExistingMediaConverter", "ExistingMediaConverter\_ExistingMediaConverter.csproj", "{896647EB-A1F8-49DF-9159-45FA6699AE83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP4_Mangler", "MP4_Mangler\MP4_Mangler.csproj", "{91EF5074-3962-4516-A927-41DFB1C3BF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ExampleController", "_ExampleController\_ExampleController.csproj", "{1441787C-A5F5-4B9E-BFA2-5596C54701FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteToSmooth", "SatelliteToSmooth\SatelliteToSmooth.csproj", "{9BD66454-C5E2-4C56-909D-A8E822C3805F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41D8F371-4F70-437F-9463-C8B841FC6F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D8F371-4F70-437F-9463-C8B841FC6F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D8F371-4F70-437F-9463-C8B841FC6F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D8F371-4F70-437F-9463-C8B841FC6F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADB4293-3F46-4CA4-86DF-027332B2AF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADB4293-3F46-4CA4-86DF-027332B2AF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADB4293-3F46-4CA4-86DF-027332B2AF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADB4293-3F46-4CA4-86DF-027332B2AF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A43E1A-3031-4869-B550-2E580D256A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A43E1A-3031-4869-B550-2E580D256A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A43E1A-3031-4869-B550-2E580D256A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A43E1A-3031-4869-B550-2E580D256A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896647EB-A1F8-49DF-9159-45FA6699AE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896647EB-A1F8-49DF-9159-45FA6699AE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896647EB-A1F8-49DF-9159-45FA6699AE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896647EB-A1F8-49DF-9159-45FA6699AE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EF5074-3962-4516-A927-41DFB1C3BF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EF5074-3962-4516-A927-41DFB1C3BF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EF5074-3962-4516-A927-41DFB1C3BF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EF5074-3962-4516-A927-41DFB1C3BF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1441787C-A5F5-4B9E-BFA2-5596C54701FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1441787C-A5F5-4B9E-BFA2-5596C54701FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1441787C-A5F5-4B9E-BFA2-5596C54701FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1441787C-A5F5-4B9E-BFA2-5596C54701FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD66454-C5E2-4C56-909D-A8E822C3805F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD66454-C5E2-4C56-909D-A8E822C3805F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD66454-C5E2-4C56-909D-A8E822C3805F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD66454-C5E2-4C56-909D-A8E822C3805F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
