@@ -9,3 +9,5 @@ _ReSharper.*
 /*/obj
 /*/bin
 packages
+.vs/
+*[Rr]esharp*

@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCS_Encoder", "HCS_Encoder\HCS_Encoder.csproj", "{41D8F371-4F70-437F-9463-C8B841FC6F18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncoderConfiguration", "EncoderConfiguration\EncoderConfiguration.csproj", "{5ADB4293-3F46-4CA4-86DF-027332B2AF4C}"
@@ -14,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ExampleController", "_ExampleController\_ExampleController.csproj", "{1441787C-A5F5-4B9E-BFA2-5596C54701FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteToSmooth", "SatelliteToSmooth\SatelliteToSmooth.csproj", "{9BD66454-C5E2-4C56-909D-A8E822C3805F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_info", "_info", "{0EBB7EDA-0118-438D-B4A5-8948D04A8C3E}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +60,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DF274FE-B637-4007-BCD3-6AB49C88C16D}
 	EndGlobalSection
 EndGlobal

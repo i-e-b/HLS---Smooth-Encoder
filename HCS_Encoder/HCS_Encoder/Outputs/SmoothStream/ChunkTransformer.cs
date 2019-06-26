@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using MP4_Mangler;
-using MP4_Mangler.FragmentBoxes;
 using HCS_Encoder.Outputs.SmoothStream.Multiplexing;
-using System.Threading;
 using HCS_Encoder.Utilities;
 
 namespace HCS_Encoder.Outputs.SmoothStream {

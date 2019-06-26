@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace HCS_Encoder {
 
@@ -11,21 +8,21 @@ namespace HCS_Encoder {
 		public double ChunkDuration { get; set; }
 		public string SourceFilePath { get; set; }
 		public ChunkDetail (int chunkIndex, int streamIndex, double duration) {
-			this.ChunkIndex = chunkIndex;
-			this.StreamIndex = streamIndex;
-			this.ChunkDuration = duration;
+			ChunkIndex = chunkIndex;
+			StreamIndex = streamIndex;
+			ChunkDuration = duration;
 		}
 		public ChunkDetail (string path, int chunkIndex, int streamIndex, double duration) {
-			this.ChunkIndex = chunkIndex;
-			this.StreamIndex = streamIndex;
-			this.ChunkDuration = duration;
-			this.SourceFilePath = path;
+			ChunkIndex = chunkIndex;
+			StreamIndex = streamIndex;
+			ChunkDuration = duration;
+			SourceFilePath = path;
 		}
 
 		#region IComparable<ChunkDetail> Members
 
 		public int CompareTo (ChunkDetail other) {
-			return this.ChunkIndex.CompareTo(other.ChunkIndex);
+			return ChunkIndex.CompareTo(other.ChunkIndex);
 		}
 
 		#endregion

@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Text;
 using System.Xml.Serialization;
-using System.IO;
 
 namespace EncoderConfiguration {
 
@@ -15,9 +13,9 @@ namespace EncoderConfiguration {
 		/// </summary>
 		public static Configuration LoadFromFile (string Filepath) {
 			XmlSerializer sz = new XmlSerializer(typeof(Configuration));
-			Configuration conf = null;
-			try {
-				using (Stream reader = File.OpenRead(Filepath)) {
+            try {
+                Configuration conf;
+                using (Stream reader = File.OpenRead(Filepath)) {
 					conf = sz.Deserialize(reader) as Configuration;
 				}
 				return conf;
@@ -60,23 +58,24 @@ namespace EncoderConfiguration {
 				);
 		}
 
-		private string CDATAfy (string input) {
-			if (!input.StartsWith("<![CDATA[")) {
+		private string CDATAfy (string input)
+        {
+            if (!input.StartsWith("<![CDATA[")) {
 				return "<![CDATA[" + input + "]]>";
-			} else {
-				return input;
 			}
-		}
+
+            return input;
+        }
 		#endregion
 
 		/// <summary>
 		/// Create a new blank configuration script
 		/// </summary>
 		public Configuration () {
-			Audio = new EncoderConfiguration.AudioCapture();
-			EncoderSettings = new EncoderConfiguration.Encoder();
-			Upload = new EncoderConfiguration.Uploader();
-			Video = new EncoderConfiguration.VideoCapture();
+			Audio = new AudioCapture();
+			EncoderSettings = new Encoder();
+			Upload = new Uploader();
+			Video = new VideoCapture();
 
 			EncoderSettings.LocalSystemFilePrefix = "";
 			EncoderSettings.LocalSystemOutputFolder = "";

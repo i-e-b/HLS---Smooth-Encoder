@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace System.IO {
+﻿namespace System.IO {
 	/// <summary>
 	/// Splits a byte array into values, based on a series of bit lengths
 	/// Translations are done from network byte order.
